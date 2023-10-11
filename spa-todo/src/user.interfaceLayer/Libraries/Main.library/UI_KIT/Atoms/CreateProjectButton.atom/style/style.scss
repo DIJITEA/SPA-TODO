@@ -1,0 +1,25 @@
+@import "../../../../constants/colors/colors";
+.cPButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: $gradient-light--green;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: -5px 5px 8px 0px #161817d1;
+  margin: 15px;
+
+  &__p {
+    font-size: 50px;
+    color: $white-light;
+    &--close{
+      font-size: 30px;
+    }
+  }
+  &--close{
+    background: $gradient-light--red;
+  }
+}
